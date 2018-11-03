@@ -5,6 +5,35 @@ body {
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 120px;
   font-family: 'Baloo Bhaijaan', cursive;
+  text-align: center;
+  /* background-color: red; */
+  margin: 0;
+  padding: 0;
+  line-height: 120px;
+}
+
+.main-nav {
+  background-color: black;
+  list-style: none;
+}
+
+.main-nav li {
+  display: inline-block;
+  font-size: 24px;
+  margin: 0 40px 0 40px;
+}
+
+.main-nav a {
+  color: white;
+  text-decoration: none;
+  /* background-color: red; */
+  padding: 10px;
+  display: block;
+}
+
+.main-nav a:hover {
+  background-color: white;
+  color: black;
 }

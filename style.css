@@ -51,7 +51,7 @@ main {
 
 main > aside,
 main > section {
-  display: inline-block;
+  float: left;
   padding: 20px;
 }
 
@@ -61,18 +61,50 @@ main > aside {
 }
 
 main > section {
-  width: 59%;
+  width: 60%;
   background-color: white;
 }
 
-h2, h3 {
+h2, h3, h4 {
   font-family: 'Baloo Bhaijaan', cursive;
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 50px;
 }
 
 h3 {
+  font-size: 40px;
+}
+
+h4 {
   font-size: 30px;
+}
+
+article p {
+  font-size: 24px;
+}
+
+article img {
+  float: right;
+  width: 500px;
+  margin-left: 20px;
+}
+
+article a, article a:visited {
+  color: black;
+}
+
+article a:hover {
+  color: orange;
+}
+
+.products {
+  width: 49%;
+  float: left;
+  margin-right: 10px;
+}
+
+.products img {
+  width: 100%;
 }

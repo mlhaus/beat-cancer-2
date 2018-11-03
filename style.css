@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   /* background-color: tomato; */
   background-image: linear-gradient(90deg, #fbff21, #947eb0);
@@ -13,6 +17,8 @@ h1 {
   padding: 0;
   line-height: 120px;
 }
+
+
 
 .main-nav {
   background-color: black;
@@ -36,4 +42,37 @@ h1 {
 .main-nav a:hover {
   background-color: white;
   color: black;
+}
+
+main {
+  margin: 0;
+  padding: 0;
+}
+
+main > aside,
+main > section {
+  display: inline-block;
+  padding: 20px;
+}
+
+main > aside {
+  width: 20%;
+
+}
+
+main > section {
+  width: 59%;
+  background-color: white;
+}
+
+h2, h3 {
+  font-family: 'Baloo Bhaijaan', cursive;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 30px;
 }

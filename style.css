@@ -1,0 +1,10 @@
+body {
+  /* background-color: tomato; */
+  background-image: linear-gradient(90deg, #fbff21, #947eb0);
+  font-family: 'Cairo', sans-serif;
+}
+
+h1 {
+  font-size: 60px;
+  font-family: 'Baloo Bhaijaan', cursive;
+}
